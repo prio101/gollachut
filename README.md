@@ -7,7 +7,7 @@ Ghost Blogging Theme
 
 
 ==========================
-# Theme Name : GollaChut
+# Theme Name : GollaChut - গোল্লাছুট
 ==========================
 # Version : 0.0.1
 ==========================
