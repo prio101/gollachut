@@ -1,0 +1,23 @@
+{
+  "name": "sohoj",
+  "version": "0.1",
+  "authors": [
+    "prio101 <miprio101@gmail.com>"
+  ],
+  "description": "ghost minimal template",
+  "main": "./assets",
+  "keywords": [
+    "ghost",
+    "template"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "normalizer":"",
+    "bootstrap":"",
+    "jquery":"",
+    "modernizr":"",
+    "fontawesome":""
+  },
+  
+}

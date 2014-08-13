@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta name="charset" content="utf-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<title>{{meta_title}}</title>
+		<meta name="description" content="{{meta_description}}" >
+		<meta name="author" content="{{author}}" >
+		
+		{{!-- styles and scripts --}}
+		<link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}">
+
+		<link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.css"}}">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="{{asset "css/font-awesome.css"}}">
+
+
+		<link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}">
+
+		<script src="{{asset "js/modernizr.js"}}"></script>		
+
+		{{ghost_head}}{{!-- loding the head of ghost --}}
+	</head>
+	<body class="{{body_class}}">
+		
+	{{> header}}
+	{{!-- load content --}}
+	
+	{{{body}}}
+
+	
+
+
+	{{!-- load scripts here --}}
+	<script src="{{asset "js/jquery.js"}}"></script>
+	<script src="{{asset "js/bootstrap.js"}}"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xs-24">
+				<footer class="footer_ghost">
+					<p>This is <a href="{{@blog.url}}">{{@blog.title}}</a> &copy; Copyright {{date format="YYYY"}} </p>
+				</footer>
+			</div>
+		</div>
+</div>
+	{{!-- load foot  --}}
+	{{ghost_foot}}
+	</body>
+
+</html>
+
+
+

@@ -1,0 +1,23 @@
+<div class="container" >
+	<div class="row">
+		<div class="col-md-6 col-md-offset-4 col-xs-24">
+
+			{{#foreach posts}}
+				<div class="loop_ghost">
+					<h1 class="post_title_ghost"><a href="{{url}}">{{{title}}}</a></h1>
+
+				</div>
+				<div class="excerpt_ghost">
+					
+					<article>{{excerpt words="40" }}</article>
+					<a href="{{url}}" class="btn btn-info">More &raquo;</a>
+					<h4>{{date format="DD-MMM-YYYY"}}</h4>
+					<img class="author_image_ghost" src="{{author.image}}" alt="author"><p>Written by - {{author.name}}</p> 
+					{{!-- add a "more" button here --}}
+
+				</div>
+				<hr />
+			{{/foreach}}
+		</div>
+	</div>
+</div>
