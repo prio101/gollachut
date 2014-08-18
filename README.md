@@ -1,9 +1,15 @@
-## Ghost Blogging Theme
+gollachut
+=========
+
+Ghost Blogging Theme
+
+
+
 
 ==========================
-## Theme Name : GollaChut
+# Theme Name : GollaChut - গোল্লাছুট
 ==========================
-## Version : 0.0.1
+# Version : 0.0.1
 ==========================
 Author Name : Mahabub Islam
 Author Website : www.mahabubislam.com
@@ -25,3 +31,5 @@ used :
 
 stay tuned , more is coming .
 any change or feedback is welcome.
+
+
